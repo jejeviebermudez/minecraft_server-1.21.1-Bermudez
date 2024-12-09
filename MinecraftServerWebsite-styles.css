@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #fff;
+}
+
+header .hero {
+    background-image: url('minecraf_1.21.1.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    
+        color: white; /* Text color */
+        text-shadow: 0 0 10px black, /* Horizontal and vertical glow */
+                     0 0 20px black, 
+                     0 0 30px black;
+
+}
+
+img {
+    filter: contrast(0.8); /* Reduces contrast to darken the image */
+    filter: brightness(-10);
+}
+
+
+header .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+header .hero .play-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header .hero .play-button:hover {
+    background-color: #2980b9;
+}
+
+main {
+    padding: 20px;
+}
+
+.discover-games {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.discover-games .game-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.discover-games .game {
+    background: #222;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.discover-games .game img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trailers {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.trailers .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trailers .video iframe {
+    width: 300px;
+    height: 170px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.game-grid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.game-grid:hover img {
+    transform: scale(1.1);
+}
+
+.game-grid img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.game-grid {
+    text-align: center;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    margin: 0 auto;
+}
